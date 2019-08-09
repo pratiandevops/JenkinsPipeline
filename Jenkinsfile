@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Compile') { 
       tools {
-        jdk 'jdk8'
+        jdk 'jdk'
         maven 'maven-3.6.1'
       }
       steps {
