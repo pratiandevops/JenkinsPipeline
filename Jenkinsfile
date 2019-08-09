@@ -9,7 +9,7 @@ pipeline {
     stage('Compile') { 
       tools {
         jdk 'jdk'
-        maven 'maven-3.6.1'
+        maven 'MAVEN_HOME'
       }
       steps {
         powershell 'java -version'
