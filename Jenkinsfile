@@ -1,5 +1,4 @@
 pipeline{
-    agent('master'){
   stages {
     stage('Source') { 
       steps {
