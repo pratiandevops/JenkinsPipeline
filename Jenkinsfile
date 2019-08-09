@@ -1,5 +1,5 @@
-pipeline {
-  node('master'){
+pipeline{
+    agent{
   stages {
     stage('Source') { 
       steps {
