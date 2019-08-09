@@ -1,5 +1,5 @@
 pipeline {
-  node('master')
+  node('master'){
   stages {
     stage('Source') { 
       steps {
